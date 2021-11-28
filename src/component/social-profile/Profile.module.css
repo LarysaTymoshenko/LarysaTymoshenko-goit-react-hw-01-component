@@ -16,6 +16,7 @@ img {
 }
 
 .profile {
+  position: relative;
   width: 320px;
   height: auto;
   margin: 20px;

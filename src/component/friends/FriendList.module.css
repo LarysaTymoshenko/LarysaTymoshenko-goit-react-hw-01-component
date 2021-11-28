@@ -1,8 +1,9 @@
 .list {
-  /* display: flex; */
+  position: absolute;
   align-items: center;
-  padding: 10px;
-  margin: 5px;
+  display: flex;
+  left: 0%;
+  top: 0%;
 }
 .status {
   border-radius: 50%;
