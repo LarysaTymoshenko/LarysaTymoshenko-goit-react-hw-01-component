@@ -17,6 +17,9 @@
     1px 1px 5px rgb(109, 195, 226);
   margin: 5px;
 }
+.item:hover {
+  transform: scale(1.05);
+}
 .avatar {
   border-radius: 30%;
   border: none;
