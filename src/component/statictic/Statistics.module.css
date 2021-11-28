@@ -1,0 +1,33 @@
+.container {
+  border: 1px solid cornflowerblue;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 320px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  background: darkgrey;
+  padding: 10px;
+  margin: 0;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  background: cornflowerblue;
+  margin: 5px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+}
+.label {
+  font-weight: bold;
+}
