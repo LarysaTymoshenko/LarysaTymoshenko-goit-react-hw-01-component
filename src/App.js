@@ -5,6 +5,7 @@ import './App.module.css';
 import users from './data/user.json';
 import data from './data/data.json';
 import friend from './data/friends.json';
+// import transaction from './data/transactions.json';
 
 export default function App() {
   return (
