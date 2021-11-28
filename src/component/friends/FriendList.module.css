@@ -1,0 +1,31 @@
+.list {
+  /* display: flex; */
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+}
+.status {
+  border-radius: 50%;
+  margin: 5px;
+  padding: 2px;
+}
+.item {
+  width: 60px;
+  border: cadetblue 1px solid;
+  box-shadow: inset 2px 2px 5px rgba(185, 241, 239, 0.5),
+    1px 1px 5px rgb(109, 195, 226);
+  margin: 5px;
+}
+.avatar {
+  border-radius: 30%;
+  border: none;
+  background: rgba(117, 190, 218, 0.9);
+  width: 48px;
+}
+.name {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
