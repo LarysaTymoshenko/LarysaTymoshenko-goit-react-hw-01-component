@@ -1,0 +1,25 @@
+.table {
+  position: absolute;
+  align-items: center;
+  right: 15%;
+  top: 0%;
+  border: collapse;
+  border-color: black;
+}
+.head {
+  background: rgba(117, 190, 218, 0.9);
+}
+tr,
+td {
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #2a2a2a;
+}
+tr:hover {
+  background: darkgrey;
+  transform: scale(1.05);
+}
+.row:nth-child(2n) {
+  background: rgb(102, 101, 101);
+}

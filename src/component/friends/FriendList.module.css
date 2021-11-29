@@ -16,6 +16,8 @@
   box-shadow: inset 2px 2px 5px rgba(185, 241, 239, 0.5),
     1px 1px 5px rgb(109, 195, 226);
   margin: 5px;
+  background: rgba(117, 190, 218, 0.7);
+  cursor: pointer;
 }
 .item:hover {
   transform: scale(1.05);
@@ -23,7 +25,7 @@
 .avatar {
   border-radius: 30%;
   border: none;
-  background: rgba(117, 190, 218, 0.9);
+  background: rgba(185, 241, 239, 0.5);
   width: 48px;
 }
 .name {
