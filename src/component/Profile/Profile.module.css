@@ -13,13 +13,13 @@ img {
   border: 1px white solid;
   border-radius: 50%;
   margin: 0 auto;
+  background: rgba(185, 241, 239, 0.5);
 }
 
 .profile {
   position: relative;
-  width: 320px;
+  width: 340px;
   height: auto;
-  margin: 20px;
   font-family: sans-serif;
   color: black;
   margin: 0 auto;

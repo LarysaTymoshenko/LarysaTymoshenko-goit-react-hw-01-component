@@ -19,8 +19,8 @@ export default function App() {
           stats={users.stats}
         />
         <Statistics title="Upload stats" stats={data} />
-        <TransactionHistory items={transactions} />
         <FriendList friends={friend} />
+        <TransactionHistory items={transactions} />
       </section>
     </div>
   );

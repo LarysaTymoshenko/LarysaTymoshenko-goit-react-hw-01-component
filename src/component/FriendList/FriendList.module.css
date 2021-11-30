@@ -1,7 +1,7 @@
 .list {
-  align-items: center;
-  width: 50px;
-  margin: 20 auto;
+  position: absolute;
+  top: 107%;
+  left: 34%;
 }
 .red {
   border-radius: 50%;
@@ -17,11 +17,11 @@
   background: green;
 }
 .item {
-  width: 200px;
+  width: 320px;
   display: flex;
   flex-direction: row;
   border: cadetblue 1px solid;
-  box-shadow: inset 2px 2px 5px rgba(185, 241, 239, 0.5),
+  box-shadow: inset 2px 2px 5px rgba(78, 82, 81, 0.5),
     1px 1px 5px rgb(109, 195, 226);
   margin: 5px;
   background: rgba(117, 190, 218, 0.7);
