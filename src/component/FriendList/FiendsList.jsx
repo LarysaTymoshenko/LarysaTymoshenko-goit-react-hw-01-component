@@ -4,21 +4,13 @@ import s from './FriendList.module.css';
 export default function FriendList({ friends }) {
   return (
     <ul className={s.list}>
-      {friends.map(friend => (
-        <li key={friend.id} className={s.item}>
+      {friends.map(({ id, avatar, name, isOnline }) => (
+        <li key={id} className={s.item}>
           <span
-            className={s.status}
-            style={{ backgroundColor: friend.isOnline ? 'green' : 'red' }}
-          >
-            {friend.isOnline ? 'online' : 'offline'}
-          </span>
-          <img
-            className={s.avatar}
-            src={friend.avatar}
-            alt={friend.name}
-            width="48"
+            className={`${s.status} ${isOnline ? s.green : s.red}`}
           />
-          <p className={s.name}>{friend.name}</p>
+          <img className={s.avatar} src={avatar} alt={name} width="48" />
+          <p className={s.name}>{name}</p>
         </li>
       ))}
     </ul>
